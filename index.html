@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rinterio</title>
+
+    <!-- daisy ui and cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- font awsome -->
+    <script src="https://kit.fontawesome.com/44bb0085c1.js" crossorigin="anonymous"></script>
+
+    <!-- configaration -->
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+                customColor: '#ABEF5F',
+              }
+            }
+          }
+        }
+      </script>
+      <!--  manrope font -->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+
+      <!-- css -->
+       <style>
+        .manrope{
+            font-family: "Manrope", sans-serif;
+        }
+       </style>
+
+
+</head>
+<body class="manrope">
+   <header class="md:mx-32">
+    <!-- nav bar -->
+    <div class="navbar">
+        <div class="navbar-start md:items-center space-x-1">
+        <span class="bg-customColor rounded-full w-7 h-7 text-center content-center -rotate-45"><i class="fa-solid fa-arrow-right text-sm"></i></span>
+          <a class="text-3xl font-extrabold">Rinterio</a>
+        </div>
+        <div class="navbar-center hidden lg:flex">
+          <ul class="menu menu-horizontal px-1 ">
+                    <li><a class="text-gray-600 hover:text-black hover:font-bold" href="">Home</a></li>
+                    <li><a class="text-gray-600 hover:text-black hover:font-bold" href="">Services</a></li>
+                    <li><a class="text-gray-600 hover:text-black hover:font-bold" href="">Portfolio</a></li>
+                    <li><a class="text-gray-600 hover:text-black hover:font-bold" href="">Blogs</a></li>
+                    <li><a class="text-gray-600 hover:text-black hover:font-bold" href="">Contact Us</a></li>
+                </ul>
+        </div>
+        <div class="navbar-end">
+            <div class="space-x-5 hidden md:block ">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <i class="fa-solid fa-cart-shopping"></i>
+
+                <a class="bg-customColor px-5 py-5 rounded-full ">Book Consult
+                    <span class="bg-black text-white rounded-full p-2 text-center content-center ml-1"><i class="fa-solid fa-arrow-right text-sm w-5 h-5 -rotate-45"></i></span></a>
+            </div>
+            <div class="dropdown">
+                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                    <button class="btn btn-square btn-ghost">
+                        <i class="fa-solid fa-bars"></i>
+                      </button>
+                </div>
+              </div>
+        </div>
+      </div>
+      <!-- hero section -->
+       <section class="my-12 px-5 md:px-0">
+        <div class="flex items-center justify-center px-10 md:px-0">
+            <img src="img/Hero img.png" alt="">
+        </div>
+        <div class="mt-10 ">
+            <h1 class="text-center text-3xl font-bold md:text-6xl md:font-extrabold text-[#212121]">A barn house of this design has a <br>striking appearance</h1>
+            <p class="text-[#494949] text-center mt-10">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal <br>accents, and large windows that flood the space with natural light.</p>
+            <div class="flex items-center justify-center mt-10">
+                <a class="bg-lime-200 px-24 py-4 md:px-5 md:py-5 rounded-full font-extrabold">View Details<span class="bg-customColor text-white rounded-full p-2 text-center content-center ml-1"><i class="fa-solid fa-arrow-right text-sm w-5 h-5 -rotate-45"></i></span></a>
+            </div>
+
+        </div>
+       </section>
+   </header>
+   <main></main>
+   <footer></footer>
+</body>
+</html>
