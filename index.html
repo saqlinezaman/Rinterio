@@ -40,6 +40,7 @@
 
 </head>
 <body class="manrope">
+
    <header class="md:mx-32">
     <!-- nav bar -->
     <div class="navbar">
@@ -58,15 +59,24 @@
         </div>
         <div class="navbar-end">
             <div class="space-x-5 hidden md:block ">
-                <i class="fa-solid fa-magnifying-glass"></i>
-                <i class="fa-solid fa-cart-shopping"></i>
+                
+
+                <button class="btn bg-white rounded-full">
+                    <i class="fa-solid fa-magnifying-glass bg-white"></i>
+                  </button>
+                
+                <button class="btn btn-circle bg-white">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                  </button>
+                
 
                 <a class="bg-customColor px-5 py-5 rounded-full ">Book Consult
                     <span class="bg-black text-white rounded-full p-2 text-center content-center ml-1"><i class="fa-solid fa-arrow-right text-sm w-5 h-5 -rotate-45"></i></span></a>
             </div>
             <div class="dropdown">
                 <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-                    <button class="btn btn-square btn-ghost">
+                    
+                      <button class="btn bg-white rounded-full">
                         <i class="fa-solid fa-bars"></i>
                       </button>
                 </div>
@@ -108,7 +118,7 @@
                 src="./img/web-design.png"class=" rounded-lg shadow-2xl" />
 
               <div class="mt-10 md:mt-0 ">
-                <h1 class="text-2xl md:text-5xl font-extrabold text-center md:text-start px-14 md:px-0">We design thoughtful, liveable spaces</h1>
+                <h1 class="text-2xl md:text-5xl font-extrabold text-center md:text-start px-3 md:px-0">We design thoughtful, <br>liveable spaces</h1>
                 <p class="py-6 text-center md:text-start"> The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
 
                 <!-- cart  -->
@@ -116,7 +126,7 @@
                      <!-- card 1 -->
                     <div class="card bg-base-100 md:w-11/12 shadow-xl">
                         <div class="card-body">
-                            <div class="flex items-center space-x-8">
+                            <div class="flex items-start md:items-center space-x-8">
                                 <div class="">
                                     <img src="img/commercial.png" alt="">
                                 </div>
@@ -133,12 +143,12 @@
                      <!-- card 2 -->
                     <div class="card bg-base-100 md:w-11/12 shadow-xl">
                         <div class="card-body">
-                            <div class="flex items-center space-x-8">
+                            <div class="flex items-start md:items-center space-x-8">
                                 <div class="">
-                                    <img src="img/commercial.png" alt="">
+                                    <img src="img/residential.png" alt="">
                                 </div>
                                 <div class="">
-                                    <h2 class="card-titel text-xl font-extrabold mb-5">Commercial</h2>
+                                    <h2 class="card-titel text-xl font-extrabold mb-5">Residential</h2>
                                     <p class="text-[#494949]">The barn house captivates with its blend <br>of rustic charm and modern.</p>
     
                                 </div>
@@ -157,10 +167,10 @@
      </section>
 
      <!-- work process -->
-      <section class="bg-base-200 py-12 px-3 md:p-20 ">
+      <section class="bg-base-200  md:p-20 px-3 md:px-32">
         <!-- text -->
         <div class=" flex justify-center items-center pb-5">
-            <button class=" bg-white py-3 px-5 rounded-3xl"><i class="fa-solid fa-arrow-right pr-2"></i>How we works</button>
+            <button class=" bg-white py-2 px-5 rounded-3xl"><i class="fa-solid fa-arrow-right pr-2"></i>How we works</button>
         </div>
         <div class="mb-10">
             <h1 class="text-center text-4xl md:text-5xl font-extrabold pb-4">Our Works Process</h1>
@@ -174,7 +184,7 @@
                         <div class="">
                             <img src="img/concept.png" alt="">
                             <h2 class="card-titel text-xl font-extrabold py-3">Concept</h2>
-                            <p class="text-[#494949] w-5/6">The barn house captivates with its blend of rustic charm and modern.</p>
+                            <p class="text-[#494949] ">The barn house captivates with its blend of rustic charm and modern.</p>
                         </div>
                     </div>
                 </div>
@@ -184,7 +194,7 @@
                         <div class="">
                             <img src="img/flow-chart.png" alt="">
                             <h2 class="card-titel text-xl font-extrabold py-3">Design Process</h2>
-                            <p class="text-[#494949] w-5/6">The barn house captivates with its blend of rustic charm and modern.</p>
+                            <p class="text-[#494949] ">The barn house captivates with its blend of rustic charm and modern.</p>
                         </div>
                     </div>
                 </div>
@@ -194,7 +204,7 @@
                         <div class="">
                             <img src="img/vision.png" alt="">
                             <h2 class="card-titel text-xl font-extrabold py-3">Supervision</h2>
-                            <p class="text-[#494949] w-5/6">The barn house captivates with its blend of rustic charm and modern.</p>
+                            <p class="text-[#494949] ">The barn house captivates with its blend of rustic charm and modern.</p>
                         </div>
                     </div>
                 </div>
@@ -204,7 +214,7 @@
                         <div class="">
                             <img src="img/budget-planning.png" alt="">
                             <h2 class="card-titel text-xl font-extrabold py-3">Budget Planning</h2>
-                            <p class="text-[#494949] w-5/6">The barn house captivates with its blend of rustic charm and modern.</p>
+                            <p class="text-[#494949] ">The barn house captivates with its blend of rustic charm and modern.</p>
                         </div>
                     </div>
                 </div>
@@ -214,6 +224,104 @@
         
 
       </section>
+
+      <!-- portfolio -->
+       <section class="my-14 px-3 md:px-0">
+        <div class=" flex justify-center items-center pb-5">
+            <button class=" bg-lime-100 py-2 px-5 rounded-3xl"><i class="fa-solid fa-arrow-right pr-2"></i>Explore our Latest works</button>
+        </div>
+        <div class="mb-10">
+            <h1 class="text-center text-4xl md:text-5xl font-extrabold pb-4">Our Latest Portfolio</h1>
+            <p class="text-center text-gray-500 md:px-72">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
+        </div>
+        
+            <!-- collum 1 -->
+
+        <div class="md:mx-32">
+
+            <div class="md:flex ">
+
+                <!-- collum 1 -->
+                 <!-- image1 -->
+                <div class="card md:card-side bg-white shadow-xl md:p-5 md:w-8/12">
+                    <figure>
+                      <img class="md:w-[500px] w-10/12 rounded-xl" src="img/img1.png" />
+                    </figure>
+
+                    <div class="card-body">
+                      <h2 class="card-title">Commercial</h2>
+                      <p>The barn house captivates with its blend of rustic charm and modern. The barn house captivates with its blend of rustic charm and modern .</p>
+                      <div class="">
+                                <a class="font-extrabold" href="">View Project <i class="fa-solid fa-arrow-right p-2 rounded-full -rotate-45 bg-customColor ml-2"></i></a>
+                              </div>
+                    </div>
+                  </div>
+                  <!-- image 2 -->
+                  <div class="card card-side bg-white shadow-xl mx-auto flex justify-center md:mt-0 mt-5 p-5">
+                    <figure>
+                      <img
+                        src="img/img2.png " class="w-[500px] md:w-full rounded-xl" />
+                    </figure>
+                    </div>
+            </div>
+            
+            <!-- collum2 -->
+            <div class=" mt-10">
+
+                    <div class="md:flex space-x-2 space-y-10 md:space-y-0">
+
+                        <!-- image 5 -->
+
+                        <div class="card card-side bg-white shadow-xl  flex justify-around
+                         md:mt-0 mt-5 p-5 md:hidden">
+                            <figure>
+                              <img
+                                src="img/img5.png" class="w-[500px] md:w-full "/>
+                            </figure>
+                            </div>
+                        <!-- image 3 -->
+                        <div class="card card-side bg-white shadow-xl   justify-center md:mt-0 mt-5 p-5 md:block hidden">
+                            <figure>
+                              <img
+                                src="img/img3.png" class="w-[500px] md:w-full "/>
+                            </figure>
+                            </div>
+                            <!-- card 2 -->
+
+                            <div class="card md:card-side bg-white shadow-xl md:p-5 md:w-8/12">
+                            <figure>
+                              <img class=" md:w-[300px] w-10/12" src="img/img4.png" />
+                            </figure>
+                            <div class="card-body">
+                              <h2 class="card-title">Commercial</h2>
+                              <p>The barn house captivates with its blend of rustic charm and modern. </p>
+                              
+                              <div class="">
+                                <a class="font-extrabold" href="">View Project <i class="fa-solid fa-arrow-right p-2 rounded-full -rotate-45 bg-customColor ml-2"></i></a>
+                              </div>
+                            </div>
+                          </div>
+                          <!-- image 5 -->
+
+                          <div class="card card-side bg-white shadow-xl justify-center md:mt-0 mt-5 p-5 hidden md:block">
+                            <figure>
+                              <img
+                                src="img/img5.png" class="w-[500px] md:w-full "/>
+                            </figure>
+                            </div>
+
+                            <!-- image 3 -->
+                        <div class="card card-side bg-white shadow-xl   justify-center md:mt-0 mt-5 p-5 md:hidden block">
+                            <figure>
+                              <img
+                                src="img/img3.png" class="w-[500px] md:w-full "/>
+                            </figure>
+                            </div>
+                    </div>
+            </div>
+        </div>
+       </section>
+
 
    </main>
    <footer></footer>
