@@ -20,10 +20,11 @@
               colors: {
                 clifford: '#da373d',
                 customColor: '#ABEF5F',
+                }
               }
             }
           }
-        }
+        
       </script>
       <!--  manrope font -->
       <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -70,8 +71,8 @@
                   </button>
                 
 
-                <a class="bg-customColor px-5 py-5 rounded-full ">Book Consult
-                    <span class="bg-black text-white rounded-full p-2 text-center content-center ml-1"><i class="fa-solid fa-arrow-right text-sm w-5 h-5 -rotate-45"></i></span></a>
+                <a class="bg-customColor px-5 py-5 rounded-full font-extrabold">Book Consult
+                    <span class="bg-black text-white rounded-full p-2 text-center content-center ml-1 "><i class="fa-solid fa-arrow-right text-sm w-5 h-5 -rotate-45"></i></span></a>
             </div>
             <div class="dropdown">
                 <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
@@ -322,6 +323,51 @@
         </div>
        </section>
 
+       <!-- form -->
+        <section class="bg-center bg-cover bg-no-repeat px-4 md:px-40 py-14" style="background-image: url(./img/bg.jpg);"> 
+          <div class=" flex justify-center items-center ">
+            <button class=" bg-lime-100 py-2 px-5 rounded-3xl"><i class="fa-solid fa-arrow-right pr-2"></i>Explore our Latest works</button>
+        </div>
+        <div class="mt-10 ">
+          <h1 class="text-center text-3xl font-bold md:text-6xl md:font-extrabold text-[#212121]">Let’s Discuss Next Project</h1>
+          <p class="text-[#494949] text-center mt-10">The barn house captivates with its blend of rustic charm and modern sophistication,<br> featuring weathered wood, sleek metal accents.</p>
+          <!-- form start -->
+
+          <form action="">
+            <div class=" mt-10 space-y-5 ">
+              <div class=" md:flex items-center justify-center md:space-x-10 space-y-4 md:space-y-0">
+                <input
+                  type="text"
+                  placeholder="First name*"
+                  class="input w-full max-w-md rounded-full" />
+                <input
+                  type="text"
+                  placeholder="Last name*"
+                  class="input w-full max-w-md rounded-full" />
+                </div>
+              <div class=" md:flex items-center justify-center md:space-x-10 space-y-4 md:space-y-0">
+                <input
+                  type="text"
+                  placeholder="Phone Number*"
+                  class="input w-full max-w-md rounded-full" />
+                <input
+                  type="text"
+                  placeholder="Email*"
+                  class="input w-full max-w-md rounded-full" />
+                </div>
+                <!-- text area -->
+                <div class="flex items-center justify-center space-x-10 mb-10"> 
+                <textarea class="textarea w-full md:max-w-[930px] rounded-2xl px-2 text-gray-500" placeholder="Bio" rows="6">Write your message here</textarea>
+              </div>
+
+              <div class="flex items-center justify-center space-x-10 mb-10">
+                <a class="bg-customColor min-w-full md:min-w-[930px] py-4 rounded-full font-extrabold justify-center flex items-center">Book Consult
+                  <span class="bg-black text-white rounded-full p-2 text-center content-center ml-1"><i class="fa-solid fa-arrow-right text-sm w-5 h-5 -rotate-45"></i></span></a>
+              </div>
+            </div>
+          </form>
+          
+        </section>
 
    </main>
    <footer></footer>
